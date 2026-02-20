@@ -1,1 +1,145 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$VDRX - Vanguard Digital Reserve</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000510;
+            background-image: url('fondo.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+        .overlay {
+            background: rgba(0, 5, 16, 0.85);
+            min-height: 100vh;
+            padding: 40px 20px;
+            box-sizing: border-box;
+        }
+        .header {
+            margin-bottom: 30px;
+        }
+        .top-title {
+            color: #FFD700;
+            font-size: 3.5em;
+            margin: 0 0 15px 0;
+            text-shadow: 0 2px 10px rgba(255, 215, 0, 0.4);
+            letter-spacing: 3px;
+        }
+        .logo {
+            width: 220px;
+            filter: drop-shadow(0 0 15px rgba(255, 215, 0, 0.5));
+            margin-bottom: 10px;
+        }
+        h1 {
+            color: #FFD700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        p.tagline {
+            font-size: 1.1em;
+            color: #e0e0e0;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+            line-height: 1.5;
+        }
+        .chart-container {
+            max-width: 900px;
+            margin: 0 auto 40px auto;
+            border: 2px solid #FFD700;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+            background: #000;
+            height: 400px;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .btn {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #fff;
+            text-decoration: none;
+            padding: 12px 24px;
+            font-size: 1.1em;
+            font-weight: bold;
+            border-radius: 8px;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .btn img {
+            width: 24px;
+            height: 24px;
+            border-radius: 5px;
+            background-color: #fff;
+            padding: 2px;
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            filter: brightness(1.2);
+        }
+        
+        .btn-zora { background: #0052FF; } 
+        .btn-gmgn { background: #00B853; color: #000; } 
+        .btn-dexscreener { background: #000000; border: 1px solid #333; } 
+        .btn-matcha { background: #FFD700; color: #000; } 
+        .btn-birdeye { background: #FF5A00; } 
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <div class="header">
+            <h2 class="top-title">$VDRX</h2>
+            <img src="logo.jpg" alt="VDRX Logo" class="logo">
+            <h1>The Gold Standard in the Digital Age</h1>
+            <p class="tagline">An asset designed to offer solidity and security on the Base network. Check the market in real-time and access our official exchange platforms directly.</p>
+        </div>
+
+        <div class="chart-container">
+            <iframe src="https://birdeye.so/tv-widget/base/0x4edb63492e233131265a1f8d57850524c5c724fd7bcbe7f39c9c4a6963f962dc?chain=base&viewMode=pair" title="VDRX Birdeye Chart"></iframe>
+        </div>
+
+        <div class="links">
+            <a href="https://zora.co/coin/base:0x195bc266b4dd1fb54984ee6c5b6486cbf7a36fe0" class="btn btn-zora" target="_blank">
+                <img src="https://www.google.com/s2/favicons?domain=zora.co&sz=64" alt="Zora Icon"> Zora
+            </a>
+            <a href="https://gmgn.ai/base/token/0x195bc266b4dd1fb54984ee6c5b6486cbf7a36fe0" class="btn btn-gmgn" target="_blank">
+                <img src="https://www.google.com/s2/favicons?domain=gmgn.ai&sz=64" alt="GMGN Icon"> GMGN
+            </a>
+            <a href="https://dexscreener.com/base/0x4edb63492e233131265a1f8d57850524c5c724fd7bcbe7f39c9c4a6963f962dc" class="btn btn-dexscreener" target="_blank">
+                <img src="https://www.google.com/s2/favicons?domain=dexscreener.com&sz=64" alt="Dexscreener Icon"> Dexscreener
+            </a>
+            <a href="https://matcha.xyz/tokens/base/0x195bc266b4dd1fb54984ee6c5b6486cbf7a36fe0" class="btn btn-matcha" target="_blank">
+                <img src="https://www.google.com/s2/favicons?domain=matcha.xyz&sz=64" alt="Matcha Icon"> Matcha
+            </a>
+            <a href="https://birdeye.so/base/token/0x195Bc266B4dd1Fb54984ee6c5b6486cBf7A36FE0" class="btn btn-birdeye" target="_blank">
+                <img src="https://www.google.com/s2/favicons?domain=birdeye.so&sz=64" alt="Birdeye Icon"> Birdeye
+            </a>
+        </div>
+    </div>
+</body>
+</html>
